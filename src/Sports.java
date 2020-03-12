@@ -2,8 +2,8 @@
 public class Sports {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Player TestPlayer = new Player("Bobby", "Chess", 95.0, 10, 0);
+		System.out.println(TestPlayer.toString());
 	}
 
 }
